@@ -78,16 +78,15 @@ $(document).ready(function() {
 		$('.navbar_offset p').css("opacity", ".5");
 	});
 
-	$('#first').click(function() {
-		$(window).scrollTo("#1", "100000");
-	});
-
-	$('#second').click(function() {
-		$(window).scrollTo("#2", "100000");
-	});
-
-	$('#third').click(function() {
-		$(window).scrollTo("#3", "100000");
+	$('.navbar_offset').click(function() {
+		var id = $(this).attr('id');
+		if(id == "1") {
+			$(window).scrollTo("#1", "100000");
+		} else if (id == "2") {
+			$(window).scrollTo("#2", "100000");
+		} else if(id == "3") {
+			$(window).scrollTo("#3", "100000");
+		}
 	});
 
 	var mail = new Vivus('mail', {duration: 170, type: 'delayed', start: 'manual'});

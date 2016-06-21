@@ -165,3 +165,7 @@ h3 {
 #mag{
 	margin-left: 40px;
 }
+
+.cursor{
+	cursor: pointer;
+}
