@@ -1,0 +1,167 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("asanoha-400px.png");
+	vertical-align: top;
+}
+.navbar{
+	width: 100%;
+	height: 60px;
+	background-color: #114B5F;
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+	z-index: 1;
+}
+
+.navbar_offset {
+	width: 100%;
+	height: 65px;
+}
+.navbar_offset p{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	padding-top: 15px;
+}
+.navbar_offset p a {
+	color: #F45B69;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	margin: auto;
+	padding-top: 15px;
+	opacity: 0.5;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+}
+
+#top{
+	height: 70px;
+
+}
+
+.welcome{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(173, 216, 230, .5)
+}
+
+#triangles {
+	margin-left: 35px;
+}
+
+.welcome p{
+	color: #F45B69;
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	margin: auto;
+	top: 150px;
+	font-size: 60px;
+	opacity: 1.0;
+	width: 300px;
+	height: 100px;
+}
+
+.navbar ul{
+	margin: 0px;
+	float: left;
+	padding-right: 10px;
+}
+
+li{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+
+li button{
+	background-color: #114B5F;
+	border-radius: 0px;
+	color: #F45B69;
+	border: none;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	height: 60px;
+	margin: 0px;
+}
+
+button:focus {outline:0;}
+
+.Mission{
+	width: 100%;
+	height: 500px;
+
+}
+.Contact{
+	width: 100%;
+	height: 500px;
+}
+
+.Resources{
+	width: 100%;
+	height: 500px;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #F45B69;
+	text-align: center;
+	font-size: 3em;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #F45B69;
+	border-radius: 10px;
+}
+
+.footer p{
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	text-align: center;
+	margin: 0px;
+	font-size: 14px;
+}
+
+.ele{
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 20px;
+	top: 100px;
+}
+.ele button{
+	float: right;
+	margin: 10px 40px 20px 20px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #F45B69;
+	font-size: 25px;
+	background-color: #e9e9e9;
+	text-decoration: none;
+	border: none;
+	width: 40px;
+	height: 40px;
+}
+
+.typed-cursor{
+	display: none;
+}
+
+#mail{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+#target {
+	float: right;
+	margin-right: 40px;
+}
+
+#mag{
+	margin-left: 40px;
+}
