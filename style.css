@@ -153,7 +153,7 @@ h3 {
 
 #mail{
 	float: right;
-	margin-right: 50px;
+	margin-right: 100px;
 	margin-top: 20px;
 }
 
@@ -168,4 +168,83 @@ h3 {
 
 .cursor{
 	cursor: pointer;
+}
+
+.email_form {
+	width: 600px;
+	height: 400px;
+	margin-left: 100px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #F45B69;
+}
+
+.email_form textarea {
+	position: absolute;
+	left: 185px;
+	top: 1950px;
+	background-color: rgba(23,105,133,0.4);
+	border: none;
+}
+
+#name {
+	position: absolute;
+	left: 185px;
+	top: 1915px;
+}
+
+#email{
+	position: absolute;
+	left: 520px;
+	top: 1915px;
+}
+
+#email_text {
+	width: 200px;
+	margin: 0px;
+	position:absolute;
+	left: 390px;
+	top: 1912px;
+}
+
+#mes_text {
+	width: 100px;
+	margin: 0px;
+	position:absolute;
+	top: 1950px;
+}
+
+.send{
+	position: absolute;
+	left:600px;
+	top: 2200px;
+	width: 65px;
+	height: 45px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #F45B69;
+	font-size: 16px;
+}
+
+.email_form input[type="submit"] {
+	background-color: #114B5F;
+}
+
+.email_form input[type="submit"]:hover {
+	background-color: #416F7F;
+}
+
+.email_form input{
+	background-color: rgba(46,157,194, 0.4);
+	border: none;
+}
+
+input, select, textarea {
+	color: #114B5F;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+textarea:focus, input:focus {
+	color: #114B5F;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
 }

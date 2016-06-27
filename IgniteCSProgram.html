@@ -80,17 +80,16 @@
 			<path d="M10 210 L 100 100"/>
 			<path d="M290 210 L 210 95"/>
 		</svg>
-		<form method ="POST" name="emailform" action="mailTo.php">
-		<p>Name:</p>
-		 <input type="text" name="name">
-		<p>Email Address:</p>
-		 <input type="text" name="email">
-		<p>Message:</p>
-		 <textarea name="message" rows="6" cols="25"></textarea>
-		<input type="submit" value="Send">
+		<form class="email_form" method ="POST" name="emailform" action="mailTo.php">
+		Name:<br>
+		 <input id="name" type="text" name="name"><br>
+		<p id="email_text">Email Address:</p><br>
+		 <input id="email" type="text" name="email"><br>
+		<p id="mes_text">Message:</p><br>
+		 <textarea name="message" rows="15" cols=66></textarea>
+		<input class="send" type="submit" value="Send">
 		</form>
 	</div>
-	
 	<div class="footer">
 		<p>Created By Olivia Caporizzo and Leila Kassiri</p>
 		<p>&copy;2016</p>
